@@ -1,4 +1,4 @@
-### Bin2Dec
+## Bin2Dec
 
 ![ui](https://i.ibb.co/wy4VVGK/image.png)
 
