@@ -1,16 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 'border-box';
+}
+
+main {
+  background: linear-gradient(to top right, #11998e, #38ef7d);
+  height: 100vh;
+}
 
 body {
-  font-family: 'Roboto Mono', monospace;
-  background-color: black;
-  color: greenyellow;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+::placeholder {
+  color: black;
+}
+
+.inputs {
+  margin-top: 1rem;
 }
 
 input {
   padding: 10px;
-  background-color: transparent;
-  color: greenyellow;
-  border-color: greenyellow;
+  background: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.2)
+  );
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 3px 3px 5px rgba(167, 167, 167, 0.2);
 }
 
 input:active,
@@ -26,8 +50,8 @@ button {
   margin-top: 20px;
   padding: 10px;
   background-color: transparent;
-  color: greenyellow;
-  border-color: greenyellow;
+  border: none;
+  cursor: pointer;
 }
 
 .container {
@@ -35,6 +59,13 @@ button {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  background: linear-gradient(
+    to bottom left,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.2)
+  );
+  border-radius: 2rem;
+  padding: 1rem;
 }
 
 .container h1 {
